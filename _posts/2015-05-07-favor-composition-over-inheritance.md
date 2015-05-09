@@ -324,4 +324,6 @@ For a real world example:
 
 * [Crafting a small collaborating object](https://github.com/ndlib/sipity/commit/3cce37579df96b4ae3f783605f1ba1d191013cc7#diff-3d600fac39c68ac9be0e872b98c2cb82) instead of using the ubiquitous ActiveSupport::Concern kludge.
 
+* [Converting mixins to collaborators to encourage decomposition](https://github.com/OregonDigital/oregondigital_2/compare/feature/cleanup)
+
 Other examples are welcome.
