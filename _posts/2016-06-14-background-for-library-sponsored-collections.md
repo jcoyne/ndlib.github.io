@@ -27,7 +27,7 @@ Over the past few years, there have been ongoing conversations concerning collec
 
 ## What We Need
 
-In short, we need "Library Anointed Collections" - objects that are curated into a logical group by Library staff.
+In short, we need "Library Sponsored Collections" - objects that are curated into a logical group by Library staff.
 Those curated objects would then be part of a library anointed collection.
 
 User Collections have `hasCollectionMembers` predicates on the User Collection object.
