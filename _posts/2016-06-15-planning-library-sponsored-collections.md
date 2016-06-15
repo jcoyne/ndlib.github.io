@@ -18,17 +18,38 @@ Before reading this one, please read [the previous post for background informati
 My colleague - [Hello Don!](http://www3.nd.edu/~dbrower/) - has extensive graph experience.
 I've also dabbled with graphs both in college and in other ventures.
 
-We spent a bit of time whiteboarding a few probable scenarios:
+We spent a bit of time whiteboarding a few probable scenarios and came up with the following as a starting state:
 
-TODO
+![Library Collections Starting State](/images/collections.png)
 
-These were the scenarios that would require testing.
-We were focusing on how we'd build the index for each of the objects in the collections graph.
+From there we worked through a few events:
+
+* Add `f isMemberOfCollection c`
+* Add `a isMemberOfCollection e` (a cycle)
+* Add `a isMemberOfCollection g` (adding a higher level collection)
+
+These were the initial scenarios that we would test.
+We talked a bit about what information we would capture.
 
 ### Aside
 
-* DOT notation and Graphviz
-* Lazy Cycle Detection via Time to Live
+The above diagrams were generated via [Graphviz](https://graphviz.org) using the following DOT notation:
+
+```dot
+# Library Collections Starting State
+digraph "G" {
+  b -> a # b isMemberOfCollection a
+  c -> b
+  c -> a
+  d -> c
+  d -> b
+  e -> c
+  e -> b
+  f -> e
+}
+```
+
+I haven't had much luck controlling the visual layout of DOT notation, but am quite happy creating visual graphs from textual representation.
 
 ## Foundation
 
@@ -78,7 +99,14 @@ Again, more on the Index finder methods in a later blog post.
 
 ### Modeling the Indexing Process
 
-TODO
+The initial thoughts regarding indexing was to walk up through an object's `isMemberOfCollection` relationships; and keep walking until:
+
+* All referenced objects through `isMemberOfCollection` have been visited
+* We have visited N-levels of ancestors (i.e. Time to Live)
+
+During those visits, we would append to the index each nodes descendant information.
+
+More on this process in a later post.
 
 #### Aside Regarding Software Mentoring
 
