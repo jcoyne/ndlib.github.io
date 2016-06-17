@@ -74,4 +74,4 @@ We also wanted to account for [Cycles in a Graph](http://www.geeksforgeeks.org/d
 
 ## Up Next
 
-In [the next installment](/practices/2016-06-15-planning-library-sponsored-collections), I'll talk about our planning.
+In the next installment, I'll talk about our planning.
