@@ -5,7 +5,7 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 
-highlighter: pygments
+highlighter: rouge
 permalink: /:categories/:title/
 
 exclude:
@@ -40,4 +40,3 @@ authors:
     name:           Jeremy Friesen
     twitter:        jeremyfriesen
     url:            http://takeonrules.com/
-
