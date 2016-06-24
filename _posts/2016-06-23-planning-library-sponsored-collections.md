@@ -119,4 +119,4 @@ Instead I was prepared to roll a quick solution.
 
 ## Up Next
 
-In the next installment, I'll talk about the Solution.
+In the [next installment](/posts/2016-06-24-solving-library-sponsored-collections), I'll talk about the Solution.
