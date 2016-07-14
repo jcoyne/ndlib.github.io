@@ -175,4 +175,4 @@ There is a lot more code that was written. I needed to [test bootstrapping an in
 
 In summary, the implementation was built out from a single high level feature scenario. The scenario was one of data transformation (and not UI interactions, which are painful to test). My understanding of the scenario came from extensive whiteboarding as well as a previous iteration through the problem space. From there I was able to write what I needed.
 
-In the next installment, I will write about implementing the adapter in CurateND.
+In the next installment, I will write about [implementing the adapter in CurateND](/posts/2016-07-18-implementing-an-adapter-for-library-sponsored-collections).
