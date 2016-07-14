@@ -83,4 +83,4 @@ By formalizing the structure of state change, I have an opening to write more sc
 
 # Up Next
 
-In the next installment, I'll talk about the second, more complete solution.
+In the next installment, I'll talk about [the second, more complete solution](/posts/2016-07-15-complete-solution-for-library-sponsored-collections).
