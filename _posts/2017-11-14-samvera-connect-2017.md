@@ -57,7 +57,7 @@ Hyrax has externally facing APIs, though they are not adequately documented. We 
 
 Princeton (via [Figgy](https://github.com/pulibrary/figgy/)) and Lafayette are leveraging Samvera tools for book digitization workflows.
 
-Other institutions, in particular Stanford, have years of experience in AWS. They are moving away from CloudFormation to TerraForm. What were they experiencing that we have not or are not yet experiencing?
+Other institutions~~, in particular Stanford~~, have years of experience in AWS. They are moving away from CloudFormation to TerraForm. What were they experiencing that we have not or are not yet experiencing?
 
 [Documentation matters](https://medium.com/@oswebguy/why-documentation-matters-7152d46448e1). It is a means towards greater inclusion; Thank you to an expert developer for drawing attention to this. It helps people orient to the project and the community.
 
