@@ -39,7 +39,7 @@ See the [Google Drive Folder for detailed session notes][samvera_connect_session
 
 ### Key Takeaways
 
-DLT team members believe that we should incorporate ESU into the Samvera community.
+ND's DLT team members believe that we should incorporate our system adminstrators (ESU) into the Samvera community.
 
 Other institutions are leveraging Docker, but this is an ad-hoc community effort. There are some minor changes we could submit to core gems to make container work easier.
 
